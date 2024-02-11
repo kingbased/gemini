@@ -9,7 +9,7 @@ gemini (formerly bard) proxy
 ## Usage
 - run `python main.py` in the terminal
 - select openai as your chat completion source in ST and set the proxy URL to `http://localhost:3000/v1`
-- limit your context to 8-9k (i was getting errors with anything more, not sure why considering the model should be 32k)
+- disable streaming and limit your context to 8-9k (i was getting errors with anything more, not sure why considering the model should be 32k)
 - refresh the gemini page in your browser every 10-15 minutes so you rotate expired cookies
 
 ## Notes
